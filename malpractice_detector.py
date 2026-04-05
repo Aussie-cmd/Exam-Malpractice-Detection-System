@@ -197,7 +197,7 @@ while True:
     draw_box(frame, "ZONE 1 ACTIVE", (0, 255, 0), h - 60)
     draw_box(frame, "ZONE 2 ACTIVE", (255, 255, 0), h - 30)
 
-    cv2.imshow("FINAL BOSS EXAM AI", frame)
+    cv2.imshow("CHEATING DETECTOR", frame)
 
     if cv2.waitKey(1) == 27:
         break
